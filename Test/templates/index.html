@@ -4,9 +4,23 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Ya boi</title>
+	<title>Cats and Dogs Classifier</title>
 </head>
 <body>
-	<h1> Luna Nova Kappa </h1>
+	<div class="container">
+		<center>
+			<h1> Upload a pic here. </h1>
+			<form method="POST" action="/" enctype="multipart/form-data">
+				<dl>
+					<p>
+						<input type="file" name="file" class="form-control" autocomplete="off" required>
+					</p>
+				</dl>
+				<p>
+					<input type="submit" value="Submit">
+				</p>
+			</form>
+		</center>
+	</div>
 </body>
 </html>
